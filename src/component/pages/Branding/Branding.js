@@ -25,7 +25,14 @@ const Branding = () => {
             </Typography>
             <Button sx={{width:'50%'}}>Hire Us</Button>
         </Stack>
-        <Box sx={{width:'50%'}}>
+        <Box sx={{width:'50%',
+    // display:['none', 'none', 'block']
+    display: {
+        xs: 'none',
+        sm: 'none',
+        md: 'block'
+    }
+    }}>
             <img src='https://www.seekpng.com/png/detail/765-7656728_consultative-support-customer-care-logo-png.png' alt='branding'
             style={{width:'100%'}}
             />
